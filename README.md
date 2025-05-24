@@ -1,16 +1,29 @@
+ HEAD
 # recipe_book
 
-A new Flutter project.
+# RecipeBook Flutter App
 
-## Getting Started
+Aplicación Flutter que muestra un menú de comida rápida colombiana, consumiendo un endpoint mock local con recetas detalladas.
 
-This project is a starting point for a Flutter application.
+## Características
 
-A few resources to get you started if this is your first Flutter project:
+- Lista de recetas con imagen, autor y pasos.
+- Arquitectura simple basada en `Model-View-Service`.
+- Consumo de API mock utilizando `http`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Cómo ejecutar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/MelanEden/recipe_book_flutter.git
+cd recipe_book_flutter
+
+## Instala las dependencias:
+flutter pub get
+
+## Asegúrate de tener corriendo el servidor en:http://10.0.2.2:8080/fast_food_menu
+
+## Ejecuta la aplicación: flutter run
+
+
