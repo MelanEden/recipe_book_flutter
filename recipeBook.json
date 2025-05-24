@@ -1,0 +1,94 @@
+{
+  "uuid": "a8baaa95-dc18-4006-9ee1-f5e25c34421a",
+  "lastMigration": 33,
+  "name": "RecipeBook",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 8080,
+  "hostname": "0.0.0.0",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "5af6e44d-dd93-4aa8-a473-50e93bf510df",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "fast_food_menu",
+      "responses": [
+        {
+          "uuid": "b4aca2eb-dd76-42f9-862b-736a8882a2ce",
+          "body": "{\n  \"fast_food_menu\": [\n    {\n      \"name\": \"Hamburguesa Criolla Paisa\",\n      \"author\": \"Chef Andrés Gómez\",\n      \"image_link\": \"https://i.imgur.com/qLTh4XV.jpeg\",\n      \"recipe\": [\n        \"Prepara la carne molida con sal, ajo y comino.\",\n        \"Asa la carne en plancha hasta que esté cocida.\",\n        \"Tuesta el pan y añade mayonesa, lechuga y tomate.\",\n        \"Agrega la carne, huevo frito, queso y papas fosforito.\",\n        \"Cubre con la tapa del pan y sirve con ají.\"\n      ]\n    },\n    {\n      \"name\": \"Perro Caliente Paisa\",\n      \"author\": \"Chef Laura Restrepo\",\n      \"image_link\": \"https://i.imgur.com/jBkCoTS.png\",\n      \"recipe\": [\n        \"Cocina la salchicha al vapor o asada.\",\n        \"Coloca la salchicha en pan tipo hot dog.\",\n        \"Agrega ensalada de repollo, piña, papas ripio y salsas al gusto.\",\n        \"Termina con queso rallado y toques de mostaza y kétchup.\",\n        \"Sirve caliente en bandeja de cartón.\"\n      ]\n    },\n    {\n      \"name\": \"Arepa Rellena con Pollo\",\n      \"author\": \"Chef Carolina Muñoz\",\n      \"image_link\": \"https://i.imgur.com/OtgBFhx.png\",\n      \"recipe\": [\n        \"Abre una arepa asada por la mitad.\",\n        \"Rellena con pollo desmechado, guacamole y queso.\",\n        \"Agrega salsa tártara o rosada según preferencia.\",\n        \"Sirve caliente envuelta en papel aluminio.\"\n      ]\n    },\n    {\n      \"name\": \"Salchipapa Clásica\",\n      \"author\": \"Chef Miguel Herrera\",\n      \"image_link\": \"https://i.imgur.com/sS44zOp.png\",\n      \"recipe\": [\n        \"Fríe papas en bastones hasta que estén doradas.\",\n        \"Agrega salchichas cortadas en rodajas y fritas.\",\n        \"Sirve en una bandeja con salsas (rosada, tártara, mostaza).\",\n        \"Adiciona queso rayado y papas trituradas encima.\",\n        \"Acompaña con tenedor plástico y servilleta.\"\n      ]\n    },\n    {\n      \"name\": \"Empanadas Colombianas\",\n      \"author\": \"Chef Jorge Castro\",\n      \"image_link\": \"https://i.imgur.com/OSryPtn.png\",\n      \"recipe\": [\n        \"Prepara masa de maíz amarillo con agua y sal.\",\n        \"Rellena con carne molida y papa guisada.\",\n        \"Cierra en forma de media luna y sella bien los bordes.\",\n        \"Fríe en aceite caliente hasta que estén doradas.\",\n        \"Sirve con ají picante de cebolla, tomate y cilantro.\"\n      ]\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "5af6e44d-dd93-4aa8-a473-50e93bf510df"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
