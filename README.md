@@ -19,11 +19,11 @@ Aplicación Flutter que muestra un menú de comida rápida colombiana, consumien
 git clone https://github.com/MelanEden/recipe_book_flutter.git
 cd recipe_book_flutter
 
-## Instala las dependencias:
+2.  Instala las dependencias:
 flutter pub get
 
-## Asegúrate de tener corriendo el servidor en:http://10.0.2.2:8080/fast_food_menu
+3. Asegúrate de tener corriendo el servidor en:http://10.0.2.2:8080/fast_food_menu
 
-## Ejecuta la aplicación: flutter run
+4. Ejecuta la aplicación: flutter run
 
 
