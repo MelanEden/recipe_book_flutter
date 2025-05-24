@@ -3,7 +3,7 @@
 
 # RecipeBook Flutter App
 
-Aplicación Flutter que muestra un menú de comida rápida colombiana, consumiendo un endpoint mock local con recetas detalladas.
+Aplicación Flutter que muestra un menú de comida rápida colombiana, consumiendo un endpoint mockoon local con recetas detalladas.
 
 ## Características
 
